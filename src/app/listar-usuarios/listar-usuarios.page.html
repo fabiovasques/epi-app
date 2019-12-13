@@ -3,7 +3,7 @@
     <ion-buttons slot="start">
       <ion-back-button defaultHref="/home"></ion-back-button>
     </ion-buttons>
-    <ion-title>Cadastrar Plano</ion-title>
+    <ion-title>Cadastrar E.P.I</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -37,9 +37,9 @@
                  formControlName="tipo"
                  clearInput clearOnEdit="false"
             >
-              <ion-select-option value="esporte">WEB</ion-select-option>
-              <ion-select-option value="cultura">Mobile</ion-select-option>
-              <ion-select-option value="lazer">Desktop</ion-select-option>
+              <ion-select-option value="BOTINA">BOTINA</ion-select-option>
+              <ion-select-option value="CAPACETE">CAPACETE</ion-select-option>
+              <ion-select-option value="CINTO DE SEGURANÇA">CINTO DE SEGURANÇA</ion-select-option>
             </ion-select>
           </ion-item>
           <h6 *ngIf="errorTipo" class="error"> {{messageTipo}}</h6>
