@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Home
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card>
+        <img src="../../assets/images/logo-home-atual.jpg" width="150" height="300" />
+        <ion-card-header>
+          <ion-card-title >SEGWARE TST</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          Software de Gestão de EPIS
+        </ion-card-content>
+      </ion-card>
+
+      <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+      <ion-fab-button color="danger" (click)="abreCadastro()">
+        <ion-icon name="add"></ion-icon>
+        </ion-fab-button>
+      </ion-fab>
+</ion-content>

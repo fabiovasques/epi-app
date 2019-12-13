@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Contatos
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="dark" padding>
+	<ion-list>
+        <ion-item>
+          <ion-label position="floating">Nome:</ion-label>
+          <ion-input type="text"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">E-mail:</ion-label>
+          <ion-input type="text"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label>Tipo de Suporte</ion-label>
+            <ion-select>
+              <ion-select-option value="esporte">Técnico</ion-select-option>
+              <ion-select-option value="cultura">Financeiro</ion-select-option>
+              <ion-select-option value="lazer">Empresarial</ion-select-option>
+            </ion-select>
+        </ion-item>
+        <ion-item>
+            <ion-label>Descrição</ion-label>
+            <ion-textarea></ion-textarea>
+        </ion-item>
+        <div style="margin-top: 40px;">
+          <ion-button type="submit" expand="full" color="danger">Enviar Ticket</ion-button>
+        </div>
+    </ion-list>
+</ion-content>
