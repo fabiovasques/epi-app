@@ -17,7 +17,7 @@ export class AppComponent {
       icon: 'home'
     },
     {
-      title: 'Cadastrar Usuarios',
+      title: 'Cadastrar E.P.I.S',
       url: '/listar-usuarios',
       icon: 'add'
     },
@@ -27,7 +27,7 @@ export class AppComponent {
       icon: 'apps'
     },
     {
-      title: 'Contatos',
+      title: 'Enviar Pedido',
       url: '/contatos',
       icon: 'contact'
     }
